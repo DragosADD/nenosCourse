@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  color: black;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+article {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+  position: relative;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.shippinBaner {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(241, 241, 241);
+  padding: 10px 0px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.MoreInfo {
+  margin-bottom: 20px;
+}
+
+a:link {
+  color: black;
+  font-weight: bold;
+}
+a:visited {
+  /* color: #777; */
+  color: #1098ad;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+li {
+  list-style-type: square;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.addToCart-Button {
+  color: rgb(241, 241, 241);
+  background-color: black;
+  font-size: 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 100%;
+  border-top: 5px solid black;
+}
+
+.addToCart-Button:hover {
+  color: black;
+  background-color: rgb(241, 241, 241);
+}
+
+.article {
+  width: 825px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+.description {
+  margin-bottom: 5px;
+}
+
+.details {
+  margin-bottom: 10px;
+}
+
+h2 {
+  position: relative;
+}
+.colors {
+  content: " pl";
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 13px;
+}
+.collor-List {
+  margin-bottom: 20px;
+}
+h2::before {
+  content: "SALE";
+  color: white;
+  padding: 8px 20px;
+  background-color: rgb(214, 93, 93);
+  font-size: 13px;
+  letter-spacing: 5px;
+  display: inline-block;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+}
+
+.hidden {
+  position: absolute;
+  width: 410px;
+  /* top: -20px;
+  left: -40px; */
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}

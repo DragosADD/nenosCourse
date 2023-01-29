@@ -1,0 +1,21 @@
+Sa se creeze o pagina HTML ce contine doua containere cu diferite elemente ( la alegere ). Cele doua containere:​
+
+Sa contina cate o aliniere diferita in functie de rezolutia curenta​
+
+Sa schimbe stilul ( culoare, font, etc ) elementelor pe rezolutii de mobile​
+
+Sa contina elemente care sunt vizibile doar pe o rezolutie desktop​
+
+Sa contina propietati de flexbox ​
+
+De tip justify/align​
+
+De tip order/grow/shrink​
+
+​
+
+Extra*: Un al treilea container care are un element centrat perfect ( pe cele doua axe, relativ la containerul propriu zis). Cunoscut ca si “perfect centering”. ​
+
+​
+
+Se poate edita textul HTML intr-un fisier si sa fie salvat cu extensia .html si un fisier extern .css sau pagina sa fie stilizata intern.​

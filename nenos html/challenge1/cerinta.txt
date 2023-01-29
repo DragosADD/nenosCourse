@@ -1,0 +1,14 @@
+
+html
+
+tag heading
+tag paragraph
+tag imagine
+tag link
+tag lista
+
+css
+element ascuns
+element sa aiba culoare schimbata
+element sa aiba pozitionare diferita
+element sa aiba o marime/font/stil de scriere custom
